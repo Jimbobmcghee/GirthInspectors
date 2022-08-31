@@ -7,12 +7,19 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p> Welcome Girth Inspectors! </p></p></p>
+
+  <p> The Short Bus Fantasy League gets a sequel: Shortbus Reloaded </p>
+<p> The 5th installment in the pharmacy bros fantasy football saga.The year is bound to be full of laughs, tears, and bad trades. Lemme tell ya, I can't wait.  </p> </p>
+<p> This website will have the best info, the in-deph analysis, and the hottest takes. Lets go over what we may be able to expect </p>
+<p> • All updates and information contained in the Sleeper App  </p>
+<p> • Weekly Charts and Matchup Analysis  </p>
+<p> • Weekly Podcast hosted by Gokul1 and Alec  </p>
+<p> • Not totally sure what else </p>
+<p>  </p>
+<p> I'll be working on this in my free time as a way to improve my coding, let me know what features you would like and I'll see what I can cook up </p>
+<p> Love, </p>
+<p> Your Favorite Pharmacist, jimbobmcgoo. </p>
 `;
 
 /*   STEP 3   */
