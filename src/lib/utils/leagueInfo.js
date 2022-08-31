@@ -256,7 +256,7 @@ export const managers = [
       "name": "Dimos",
       "location": "Wharton", // (optional)
       "bio": "Pharmacist and denier of western medicine, this Greek loves italian pizza and cheating at tennis with worn out balls ",
-      "photo": "/managers/Dimos.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/Dimos.jepg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "NE", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
