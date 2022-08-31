@@ -258,7 +258,7 @@ export const managers = [
       "bio": "Pharmacist and denier of western medicine, this Greek loves italian pizza and cheating at tennis with worn out balls ",
       "photo": "/managers/Dimos.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "NE", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Gokul1", // Can be anything (usually your rival's name)
@@ -266,9 +266,9 @@ export const managers = [
         image: "/managers/Gokul.jpeg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        Comment: "A rivalry for the decade"
       },
-      "favoritePlayer": 74, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+      "favoritePlayer": 6820, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Vet", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Great Locker Room Chemistry",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Message Me by Pidgeon Carrier", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
