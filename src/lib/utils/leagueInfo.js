@@ -255,7 +255,7 @@ export const managers = [
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Dimos",
       "location": "Wharton", // (optional)
-      "bio": "Pharmacist and denier of western medicine, this Greek loves italian pizza and cheating at tennis with worn out balls ",
+      "bio": "Pharmacist and denier of western medicine, this Greek loves italian pizza and cheating at tennis with worn out balls",
       "photo": "/managers/Dimos.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -264,7 +264,6 @@ export const managers = [
         name: "Gokul1", // Can be anything (usually your rival's name)
         link: 8, // manager array number within this array, or null to link back to all managers page
         image: "/managers/Gokul.jpeg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-       Comment: "A rivalry for the decade"
       },
       "favoritePlayer": 6820, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
