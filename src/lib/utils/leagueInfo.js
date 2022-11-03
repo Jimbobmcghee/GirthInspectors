@@ -10,14 +10,13 @@ export const homepageText = `
   <p> Welcome Girth Inspectors! </p></p></p>
 
   <p> The Short Bus Fantasy League gets a sequel: Shortbus Reloaded </p>
-<p> The 5th installment in the pharmacy bros fantasy football saga.The year is bound to be full of laughs, tears, and bad trades. Lemme tell ya, I can't wait.  </p> </p>
+<p> The 5th installment in the pharmacy bros fantasy football saga. The year is heating up and so is this website.  </p> </p>
 <p> This website will have the best info, the in-deph analysis, and the hottest takes. Lets go over what we may be able to expect </p>
 <p> • All updates and information contained in the Sleeper App  </p>
 <p> • Weekly Charts and Matchup Analysis  </p>
-<p> • Weekly Podcast hosted by Gokul1 and Alec  </p>
-<p> • Not totally sure what else </p>
+<p> • Weekly Podcast hosted by Dimos and RV  </p>
 <p>  </p>
-<p> I'll be working on this in my free time as a way to improve my coding, let me know what features you would like and I'll see what I can cook up </p>
+<p> Let me know what to add </p>
 <p> Love, </p>
 <p> Your Favorite Pharmacist, jimbobmcgoo. </p>
 `;
@@ -36,7 +35,7 @@ export const managers = [
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "RV",
       "location": "Boston, MA", // (optional)
-      "bio": " A member of the Bayberry Squad that loves WOW (working on weekends) and hates Furoscix ",
+      "bio": "After a terrible start to the season, one dose of HGH from MGH has given his guys the boost they need",
       "photo": "/managers/Ryan.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "NE", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -55,10 +54,10 @@ export const managers = [
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "name": "Alec",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "Prey on his fear of the color yellow, laugh at the wooden 'Wine O'Clock' sign in his kitchen, even shit on his doorstep... he's still gonna beat you Gokul",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -77,10 +76,10 @@ export const managers = [
     },
 {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "name": "Jim",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "He puts more volume in his subQ space than fantasy points on the board but he wont give up on his guys",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -99,10 +98,10 @@ export const managers = [
     },
     {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "name": "Doctor Ward",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "Locally crafted IPAs fuel this squad. The recent shortage has left them parched but I hear the Darzalex team can find this man a new plug",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -120,33 +119,11 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
 {
-      "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
-      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
-      "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "rival": {
-        name: "Rival", // Can be anything (usually your rival's name)
-        link: 6, // manager array number within this array, or null to link back to all managers page
-        image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
-      "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Your fantasy team's philosophy",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-{
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "name": "GC",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "A man who never rests, always making deals. Wether it's in the crypto markets or Gokuls draft picks, an investment that looks good at first may bite you in the ass.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -165,10 +142,10 @@ export const managers = [
     },
 {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "name": "Joe",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "A wise man once said 'He may work in specialty, but theres nothing special about this team'. The newcomer is looking to make league members pay for all the shade they have thrown.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -187,10 +164,10 @@ export const managers = [
     },
 {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "name": "Tillman",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "Three letter chain has tried to suck the soul out of him and his fantasy team, but investors are saying he's in for a big Q4",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -209,10 +186,10 @@ export const managers = [
     },
 {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "name": "Gokul",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "Neither legally or ethically a pharmacist, CMC denier, and local philly ladies man. He made a lot of promises to his team when he was off to a hot start, but lets just say members of his camp are starting to worry that there may never be a Gokul2",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -231,10 +208,10 @@ export const managers = [
     },
 {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Your Name",
+      "name": "Yak",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
-      "bio": "Lorem ipsum...",
+      "bio": "What is the secret stuff formula? Premium gasoline forBMWs? The Pfizer vaccine? Scientists are puzzled about the fuel for rookies hot start.  We know one thing for sure though, his dog is well fed.",
       "photo": "/managers/name.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -255,7 +232,7 @@ export const managers = [
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Dimos",
       "location": "Wharton", // (optional)
-      "bio": "Pharmacist and denier of western medicine, this Greek loves italian pizza and cheating at tennis with worn out balls",
+      "bio": "Pharmacist, denier of western medicine, and anti-vegtable activist. If you're looking for a bad take, you've found your guy",
       "photo": "/managers/Dimos.jpeg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2015, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
