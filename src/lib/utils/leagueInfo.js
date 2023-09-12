@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "860353081588711424"; // your league ID
+export const leagueID = "992181094436630528"; // your league ID
 export const leagueName = "Short Bus Reloaded"; // your league name
 export const dues = 50; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
